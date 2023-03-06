@@ -1,0 +1,12 @@
+.column {
+    float: left;
+    width: 49%;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
